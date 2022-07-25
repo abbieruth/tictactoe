@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Condensed', light-weight;
+  /* reset margin & padding from      browser defaults 
+  */
+} 
+
+.background {
+  background-color: #121818;
+  height: 100vh;
+  padding-top: 1px;
+  /* selects the background color,
+  sets the height to 100%,
+  1 px top padding to avoid margin    collapse
+  */
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10%;
+  /* makes title pretty */
+}
+
+.display {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* makes display pretty */
+}
+
+.hide {
+  display: none;
+  /* apply this class to hide an
+  element 
+  */
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+  /* this creates the 3x3 TicTacToe       grid 
+  */
+}
+
+.tile {
+  border: 1px solid white;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+  /* this creates the tile's               properties and canges the cursor
+    to a pointer to let the user know 
+    the tile is clickable 
+  */
+}
+
+.playerX {
+  color: #09C372;
+  /* identifer for player X */
+}
+
+.playerO {
+  color: #498AFB;
+  /* identifer for player O */
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  /* centers the controls */
+}
+
+#reset {
+  background-color: #ff3860;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  margin-left: 1em;
+  cursor: pointer;
+  /* styles the reset button */
+}
