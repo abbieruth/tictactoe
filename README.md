@@ -12,4 +12,6 @@ https://www.youtube.com/watch?v=l-hh51ncgDI
 
 # Tools:
 
-https://sweetalert.js.org
+https://sweetalert.js.org,
+https://jquery.com
+jQuery is a JavaScript library that greatly simplifies the coding process:
