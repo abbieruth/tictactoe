@@ -7,7 +7,7 @@
 } 
 
 .background {
-  background-color: #121818;
+  background-color: #12181B;
   height: 100vh;
   padding-top: 1px;
   /* selects the background color,
@@ -28,8 +28,8 @@
   color: white;
   font-size: 25px;
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 1em;
+  margin-bottom: 1em;
   /* makes display pretty */
 }
 
@@ -59,6 +59,7 @@
   align-items: center;
   font-size: 50px;
   cursor: pointer;
+  color: yellow;
   /* this creates the tile's               properties and canges the cursor
     to a pointer to let the user know 
     the tile is clickable 
@@ -84,14 +85,7 @@
   /* centers the controls */
 }
 
-#reset {
-  background-color: #ff3860;
-  color: white;
-  padding: 8px;
-  border-radius: 8px;
-  border: none;
-  font-size: 20px;
-  margin-left: 1em;
-  cursor: pointer;
-  /* styles the reset button */
+/* aligns the button for the alert */
+.swal-footer {
+ text-align: center;
 }
